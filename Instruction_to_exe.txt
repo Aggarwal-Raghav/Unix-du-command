@@ -1,0 +1,14 @@
+du - Finding the disk usage of each FILE and recursively for directories 
+
+Usage:
+
+$ make
+$ ./newdu [-c][-h][-a][--max-depth=N] path_of_directory/file[optional otherwise it take current directory]
+
+Optional flags:
+
+-a: writes counts for all files, not just directories i.e find size of directories as well as files in directory
+-h: prints sizes in human readable format i.e in terms of KB, MB, GB
+-c: produces a grand total i.e prints the total size at end
+--max-depth=N: prints the total for a directory only if it is N or fewer levels below the command line argument
+for example:- --max-depth=2 i.e it searches at depth 2 in each directory 
