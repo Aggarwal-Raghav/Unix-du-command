@@ -11,4 +11,4 @@ Optional flags:
 -h: prints sizes in human readable format i.e in terms of KB, MB, GB
 -c: produces a grand total i.e prints the total size at end
 --max-depth=N: prints the total for a directory only if it is N or fewer levels below the command line argument
-for example:- --max-depth=2 i.e it searches at depth 2 in each directory 
+for example:- --max-depth=2 i.e it searches at depth 2 in each directory.
